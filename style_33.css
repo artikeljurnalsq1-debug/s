@@ -1,0 +1,64 @@
+
+body {
+    background-color: white;
+    background-image: url(../gambar/WhatsApp\ Image\ 2026-06-26\ at\ 00.30.24.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.div-kiri {
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-image: url(../gambar/WhatsApp\ Image\ 2026-06-26\ at\ 00.30.24.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 30px;
+}
+.div-kanan {
+    width: 200px;
+    height: 100px;
+    float: right;
+    background-image: url(../gambar/WhatsApp\ Image\ 2026-06-26\ at\ 00.30.24.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 30px;
+}
+.container-main {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content {
+    background-color: rgb(247, 240, 232);
+    padding: 30px;
+}
+.navigasi-kiri {
+    background-color: rgb(199, 240, 240);
+    padding: 30px;
+    flex: 1;
+}
+.navigasi-kanan {
+    background-color: rgb(192, 215, 237);
+    padding: 30px;
+    flex: 1;
+}
+.container-card {
+    width: 900px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 30%;
+}
+.card .card-header img {
+    width: 100%;
+}
